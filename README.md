@@ -4,17 +4,17 @@
 ###To initialize the main repository:
 
 ````
-repo init -u https://github.com/diparthshah/TWRP-manifest.git -b master
+repo init -u https://github.com/goayandi/TWRP-manifest.git -b master
 ````
 ```````
 repo sync 
 ```````
-BUILDING IT FOR GIONEE M2 
+BUILDING IT FOR WIKO HIGHWAY SIGNS s4750 
 
 $ cd [twrp source which synced from above]
 
 $ source build/envsetup.sh 
 
-$ lunch omni_m2-userdebug 
+$ lunch omni_s4750-userdebug 
 
 $ make clean && make -j# recoveryimage  [# : no. of cpu cores ] 
